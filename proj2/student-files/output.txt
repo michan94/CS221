@@ -1,0 +1,118 @@
+BEGINNING TESTS FOR PART 1A
+*** TESTING INSERT ***
+adding item1,  with number 50 to heap
+Top of heap is: text_item{"item1",50}
+adding item2,  with number 61 to heap
+Top of heap is: text_item{"item2",61}
+adding item3,  with number 31 to heap
+Top of heap is: text_item{"item2",61}
+adding item4,  with number 92 to heap
+Top of heap is: text_item{"item4",92}
+adding item5,  with number 47 to heap
+Top of heap is: text_item{"item4",92}
+deleting item4, with number 92
+deleting item2, with number 61
+deleting item1, with number 50
+deleting item5, with number 47
+deleting item3, with number 31
+The heap is now empty!
+*Test Complete*
+*** TESTING INSERT (NO SWAP_UPS) ***
+adding item7, with number 5 to heap
+Top of heap is: text_item{"item7",5}
+adding item8, with number 4 to heap
+Top of heap is: text_item{"item7",5}
+adding item9, with number 3 to heap
+Top of heap is: text_item{"item7",5}
+adding item10, with number 2 to heap
+Top of heap is: text_item{"item7",5}
+adding item11, with number 1 to heap
+Top of heap is: text_item{"item7",5}
+deleting item7, with number 5
+deleting item8, with number 4
+deleting item9, with number 3
+deleting item10, with number 2
+deleting item11, with number 1
+The heap is now empty!
+**Test Complete**
+*** TESTING INSERT (SWAP_UPS) ***
+adding item13, with number 0 to heap
+Top of heap is: text_item{"item13",0}
+adding item14, with number 1 to heap
+Top of heap is: text_item{"item14",1}
+adding item15, with number 2 to heap
+Top of heap is: text_item{"item15",2}
+adding item16, with number 3 to heap
+Top of heap is: text_item{"item16",3}
+adding item17, with number 4 to heap
+Top of heap is: text_item{"item17",4}
+adding item18, with number 5 to heap
+Top of heap is: text_item{"item18",5}
+adding item19, with number 6 to heap
+Top of heap is: text_item{"item19",6}
+adding item20, with number 7 to heap
+Top of heap is: text_item{"item20",7}
+deleting item20, with number 7
+deleting item19, with number 6
+deleting item18, with number 5
+deleting item17, with number 4
+deleting item16, with number 3
+deleting item15, with number 2
+deleting item14, with number 1
+deleting item13, with number 0
+The heap is now empty!
+***Test Complete***
+
+BEGINNING TESTS FOR PART 1B
+*** TESTING DELETEMAX ***
+** TESTING REMOVE_MAX ON SWAP_DOWN WITH LEFT CHILD **
+adding item1, with number 0 to heap
+Top of heap is: text_item{"item1",0}
+adding item2, with number 1 to heap
+Top of heap is: text_item{"item2",1}
+deleting item2, with number 1
+deleting item1, with number 0
+The heap is now empty!
+*Test Complete*
+** TESTING REMOVE_MAX ON SWAP_DOWN WITH RIGHT CHILD **
+adding item1, with number 0 to heap
+Top of heap is: text_item{"item1",0}
+adding item2, with number 1 to heap
+Top of heap is: text_item{"item2",1}
+adding item3, with number 2 to heap
+Top of heap is: text_item{"item3",2}
+deleting item3, with number 2
+deleting item2, with number 1
+deleting item1, with number 0
+The heap is now empty!
+**Test Complete**
+** TESTING REMOVE_MAX ON EMPTY HEAP **
+Cannot delete, heap is empty!
+***Test Complete***
+
+BEGINNING TESTS FOR PART 2
+Found: difficult in the input file 39 time(s).
+found: ash in the input file 3 time(s).
+found: abcdefghj in the input file 0 time(s).
+
+BEGINNING TESTS FOR PART 3
+*** Top 5 most frequent words: ***
+text_item{"the",40506}
+text_item{"of",19652}
+text_item{"and",14786}
+text_item{"a",14315}
+text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 2 letters ***
+text_item{"the",40506}
+text_item{"of",19652}
+text_item{"and",14786}
+text_item{"to",13761}
+text_item{"in",11044}
+
+*** Top 5 most frequent words that begin with g ***
+text_item{"good",781}
+text_item{"great",501}
+text_item{"go",446}
+text_item{"god",343}
+text_item{"gavroche",308}
